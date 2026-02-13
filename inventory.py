@@ -14,6 +14,5 @@ def duplicateZeros(inventory):
             j -= 1
             if j < n:
                 inventory[j] = 0
-
         i -= 1
         j -= 1

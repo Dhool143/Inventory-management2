@@ -21,6 +21,7 @@ class TestInventoryManagement(unittest.TestCase):
         arr = [1,2,0,3]
         duplicateZeros(arr)
         self.assertEqual(arr, [1,2,0,0])
+        
 
     # -------- Edge Cases --------
     def test_empty_array(self):
