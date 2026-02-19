@@ -1,5 +1,4 @@
 
-
 def duplicateZeros(inventory):
     n = len(inventory)
     zeros = inventory.count(0)
@@ -12,11 +11,10 @@ def duplicateZeros(inventory):
             inventory[j] = inventory[i]
             
         if inventory[i] == 0:
-            
             j -= 1
             if j < n:
-              inventory[j] = 0
-            
+                inventory[j] = 0
+                
+                
         i -= 1
         j -= 1
-    
